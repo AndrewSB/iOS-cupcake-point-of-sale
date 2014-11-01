@@ -1,0 +1,314 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose node symlink /usr/bin/node
+5 warn package.json Money2020Server@1.0.0 No description
+6 warn package.json Money2020Server@1.0.0 No repository field.
+7 warn package.json Money2020Server@1.0.0 No README data
+8 verbose readDependencies using package.json deps
+9 verbose install where, deps [ '/home/josneville/Dropbox/College/Projects/money-2020/server',
+9 verbose install   [ 'express', 'morgan', 'bodyParser', 'mongoose' ] ]
+10 info preinstall Money2020Server@1.0.0
+11 verbose readDependencies using package.json deps
+12 verbose cache add [ 'express@4.9.4', null ]
+13 verbose cache add name=undefined spec="express@4.9.4" args=["express@4.9.4",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'express@4.9.4',
+14 verbose parsed url   path: 'express@4.9.4',
+14 verbose parsed url   href: 'express@4.9.4' }
+15 verbose cache add [ 'morgan@latest', null ]
+16 verbose cache add name=undefined spec="morgan@latest" args=["morgan@latest",null]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: 'morgan@latest',
+17 verbose parsed url   path: 'morgan@latest',
+17 verbose parsed url   href: 'morgan@latest' }
+18 verbose cache add [ 'bodyParser@latest', null ]
+19 verbose cache add name=undefined spec="bodyParser@latest" args=["bodyParser@latest",null]
+20 verbose parsed url { protocol: null,
+20 verbose parsed url   slashes: null,
+20 verbose parsed url   auth: null,
+20 verbose parsed url   host: null,
+20 verbose parsed url   port: null,
+20 verbose parsed url   hostname: null,
+20 verbose parsed url   hash: null,
+20 verbose parsed url   search: null,
+20 verbose parsed url   query: null,
+20 verbose parsed url   pathname: 'bodyParser@latest',
+20 verbose parsed url   path: 'bodyParser@latest',
+20 verbose parsed url   href: 'bodyParser@latest' }
+21 verbose cache add [ 'mongoose@latest', null ]
+22 verbose cache add name=undefined spec="mongoose@latest" args=["mongoose@latest",null]
+23 verbose parsed url { protocol: null,
+23 verbose parsed url   slashes: null,
+23 verbose parsed url   auth: null,
+23 verbose parsed url   host: null,
+23 verbose parsed url   port: null,
+23 verbose parsed url   hostname: null,
+23 verbose parsed url   hash: null,
+23 verbose parsed url   search: null,
+23 verbose parsed url   query: null,
+23 verbose parsed url   pathname: 'mongoose@latest',
+23 verbose parsed url   path: 'mongoose@latest',
+23 verbose parsed url   href: 'mongoose@latest' }
+24 verbose cache add name="express" spec="4.9.4" args=["express","4.9.4"]
+25 verbose parsed url { protocol: null,
+25 verbose parsed url   slashes: null,
+25 verbose parsed url   auth: null,
+25 verbose parsed url   host: null,
+25 verbose parsed url   port: null,
+25 verbose parsed url   hostname: null,
+25 verbose parsed url   hash: null,
+25 verbose parsed url   search: null,
+25 verbose parsed url   query: null,
+25 verbose parsed url   pathname: '4.9.4',
+25 verbose parsed url   path: '4.9.4',
+25 verbose parsed url   href: '4.9.4' }
+26 verbose addNamed [ 'express', '4.9.4' ]
+27 verbose addNamed [ '4.9.4', '4.9.4' ]
+28 verbose cache add name="morgan" spec="latest" args=["morgan","latest"]
+29 verbose parsed url { protocol: null,
+29 verbose parsed url   slashes: null,
+29 verbose parsed url   auth: null,
+29 verbose parsed url   host: null,
+29 verbose parsed url   port: null,
+29 verbose parsed url   hostname: null,
+29 verbose parsed url   hash: null,
+29 verbose parsed url   search: null,
+29 verbose parsed url   query: null,
+29 verbose parsed url   pathname: 'latest',
+29 verbose parsed url   path: 'latest',
+29 verbose parsed url   href: 'latest' }
+30 verbose addNamed [ 'morgan', 'latest' ]
+31 verbose addNamed [ null, null ]
+32 verbose cache add name="bodyParser" spec="latest" args=["bodyParser","latest"]
+33 verbose parsed url { protocol: null,
+33 verbose parsed url   slashes: null,
+33 verbose parsed url   auth: null,
+33 verbose parsed url   host: null,
+33 verbose parsed url   port: null,
+33 verbose parsed url   hostname: null,
+33 verbose parsed url   hash: null,
+33 verbose parsed url   search: null,
+33 verbose parsed url   query: null,
+33 verbose parsed url   pathname: 'latest',
+33 verbose parsed url   path: 'latest',
+33 verbose parsed url   href: 'latest' }
+34 verbose addNamed [ 'bodyParser', 'latest' ]
+35 verbose addNamed [ null, null ]
+36 verbose cache add name="mongoose" spec="latest" args=["mongoose","latest"]
+37 verbose parsed url { protocol: null,
+37 verbose parsed url   slashes: null,
+37 verbose parsed url   auth: null,
+37 verbose parsed url   host: null,
+37 verbose parsed url   port: null,
+37 verbose parsed url   hostname: null,
+37 verbose parsed url   hash: null,
+37 verbose parsed url   search: null,
+37 verbose parsed url   query: null,
+37 verbose parsed url   pathname: 'latest',
+37 verbose parsed url   path: 'latest',
+37 verbose parsed url   href: 'latest' }
+38 verbose addNamed [ 'mongoose', 'latest' ]
+39 verbose addNamed [ null, null ]
+40 silly lockFile 80495242-express-4-9-4 express@4.9.4
+41 verbose lock express@4.9.4 /home/josneville/.npm/80495242-express-4-9-4.lock
+42 silly lockFile d2a09fff-morgan-latest morgan@latest
+43 verbose lock morgan@latest /home/josneville/.npm/d2a09fff-morgan-latest.lock
+44 silly lockFile c127545b-bodyParser-latest bodyParser@latest
+45 verbose lock bodyParser@latest /home/josneville/.npm/c127545b-bodyParser-latest.lock
+46 silly lockFile 73e949f4-mongoose-latest mongoose@latest
+47 verbose lock mongoose@latest /home/josneville/.npm/73e949f4-mongoose-latest.lock
+48 info addNameTag [ 'morgan', 'latest' ]
+49 info addNameTag [ 'bodyParser', 'latest' ]
+50 verbose request where is /bodyParser
+51 verbose request registry https://registry.npmjs.org/
+52 verbose request id 1647a877e4072b9e
+53 verbose url raw /bodyParser
+54 verbose url resolving [ 'https://registry.npmjs.org/', './bodyParser' ]
+55 verbose url resolved https://registry.npmjs.org/bodyParser
+56 verbose request where is https://registry.npmjs.org/bodyParser
+57 info trying registry request attempt 1 at 16:37:25
+58 http GET https://registry.npmjs.org/bodyParser
+59 info addNameTag [ 'mongoose', 'latest' ]
+60 verbose request where is /mongoose
+61 verbose request registry https://registry.npmjs.org/
+62 verbose url raw /mongoose
+63 verbose url resolving [ 'https://registry.npmjs.org/', './mongoose' ]
+64 verbose url resolved https://registry.npmjs.org/mongoose
+65 verbose request where is https://registry.npmjs.org/mongoose
+66 info trying registry request attempt 1 at 16:37:25
+67 http GET https://registry.npmjs.org/mongoose
+68 verbose request where is /morgan
+69 verbose request registry https://registry.npmjs.org/
+70 verbose url raw /morgan
+71 verbose url resolving [ 'https://registry.npmjs.org/', './morgan' ]
+72 verbose url resolved https://registry.npmjs.org/morgan
+73 verbose request where is https://registry.npmjs.org/morgan
+74 info trying registry request attempt 1 at 16:37:25
+75 verbose etag "845YH9YY93XXM0OJZYG6I3IRQ"
+76 http GET https://registry.npmjs.org/morgan
+77 verbose request where is /express
+78 verbose request registry https://registry.npmjs.org/
+79 verbose url raw /express
+80 verbose url resolving [ 'https://registry.npmjs.org/', './express' ]
+81 verbose url resolved https://registry.npmjs.org/express
+82 verbose request where is https://registry.npmjs.org/express
+83 info trying registry request attempt 1 at 16:37:25
+84 verbose etag "1QCN4R8XHGWME8L63DW1MVMR6"
+85 http GET https://registry.npmjs.org/express
+86 http 404 https://registry.npmjs.org/bodyParser
+87 verbose headers { date: 'Sat, 01 Nov 2014 21:37:25 GMT',
+87 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+87 verbose headers   'content-type': 'application/json',
+87 verbose headers   'cache-control': 'max-age=0',
+87 verbose headers   'content-length': '52',
+87 verbose headers   'accept-ranges': 'bytes',
+87 verbose headers   via: '1.1 varnish',
+87 verbose headers   age: '0',
+87 verbose headers   'x-served-by': 'cache-sjc3130-SJC',
+87 verbose headers   'x-cache': 'MISS',
+87 verbose headers   'x-cache-hits': '0',
+87 verbose headers   'x-timer': 'S1414877845.787152,VS0,VE156',
+87 verbose headers   'keep-alive': 'timeout=10, max=50',
+87 verbose headers   connection: 'Keep-Alive' }
+88 silly registry.get cb [ 404,
+88 silly registry.get   { date: 'Sat, 01 Nov 2014 21:37:25 GMT',
+88 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+88 silly registry.get     'content-type': 'application/json',
+88 silly registry.get     'cache-control': 'max-age=0',
+88 silly registry.get     'content-length': '52',
+88 silly registry.get     'accept-ranges': 'bytes',
+88 silly registry.get     via: '1.1 varnish',
+88 silly registry.get     age: '0',
+88 silly registry.get     'x-served-by': 'cache-sjc3130-SJC',
+88 silly registry.get     'x-cache': 'MISS',
+88 silly registry.get     'x-cache-hits': '0',
+88 silly registry.get     'x-timer': 'S1414877845.787152,VS0,VE156',
+88 silly registry.get     'keep-alive': 'timeout=10, max=50',
+88 silly registry.get     connection: 'Keep-Alive' } ]
+89 silly lockFile c127545b-bodyParser-latest bodyParser@latest
+90 silly lockFile c127545b-bodyParser-latest bodyParser@latest
+91 http 200 https://registry.npmjs.org/mongoose
+92 silly registry.get cb [ 200,
+92 silly registry.get   { date: 'Sat, 01 Nov 2014 21:37:25 GMT',
+92 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+92 silly registry.get     etag: '"4NI9W5XYPIMVL4M3AVTF6GMN7"',
+92 silly registry.get     'content-type': 'application/json',
+92 silly registry.get     'cache-control': 'max-age=60',
+92 silly registry.get     'content-length': '275026',
+92 silly registry.get     'accept-ranges': 'bytes',
+92 silly registry.get     via: '1.1 varnish',
+92 silly registry.get     age: '33',
+92 silly registry.get     'x-served-by': 'cache-sjc3125-SJC',
+92 silly registry.get     'x-cache': 'HIT',
+92 silly registry.get     'x-cache-hits': '2',
+92 silly registry.get     'x-timer': 'S1414877845.805262,VS0,VE0',
+92 silly registry.get     vary: 'Accept',
+92 silly registry.get     'keep-alive': 'timeout=10, max=50',
+92 silly registry.get     connection: 'Keep-Alive' } ]
+93 verbose addNamed [ 'mongoose', '3.8.18' ]
+94 verbose addNamed [ '3.8.18', '3.8.18' ]
+95 silly lockFile bce763e9-mongoose-3-8-18 mongoose@3.8.18
+96 verbose lock mongoose@3.8.18 /home/josneville/.npm/bce763e9-mongoose-3-8-18.lock
+97 silly lockFile 9f523dcf-org-mongoose-mongoose-3-8-18-tgz https://registry.npmjs.org/mongoose/-/mongoose-3.8.18.tgz
+98 verbose lock https://registry.npmjs.org/mongoose/-/mongoose-3.8.18.tgz /home/josneville/.npm/9f523dcf-org-mongoose-mongoose-3-8-18-tgz.lock
+99 verbose addRemoteTarball [ 'https://registry.npmjs.org/mongoose/-/mongoose-3.8.18.tgz',
+99 verbose addRemoteTarball   'f85fdb2c9ea503ce246a9dc12434e68a2df62472' ]
+100 info retry fetch attempt 1 at 16:37:27
+101 verbose fetch to= /tmp/npm-6925-hXyEOhKx/registry.npmjs.org/mongoose/-/mongoose-3.8.18.tgz
+102 http GET https://registry.npmjs.org/mongoose/-/mongoose-3.8.18.tgz
+103 http 200 https://registry.npmjs.org/morgan
+104 silly registry.get cb [ 200,
+104 silly registry.get   { date: 'Sat, 01 Nov 2014 21:37:26 GMT',
+104 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+104 silly registry.get     etag: '"EH8BHL222U5YG2D6ZTV4DP5IO"',
+104 silly registry.get     'content-type': 'application/json',
+104 silly registry.get     'cache-control': 'max-age=60',
+104 silly registry.get     'content-length': '28557',
+104 silly registry.get     'accept-ranges': 'bytes',
+104 silly registry.get     via: '1.1 varnish',
+104 silly registry.get     age: '0',
+104 silly registry.get     'x-served-by': 'cache-sjc3127-SJC',
+104 silly registry.get     'x-cache': 'HIT',
+104 silly registry.get     'x-cache-hits': '1',
+104 silly registry.get     'x-timer': 'S1414877845.791765,VS0,VE350',
+104 silly registry.get     vary: 'Accept',
+104 silly registry.get     'keep-alive': 'timeout=10, max=50',
+104 silly registry.get     connection: 'Keep-Alive' } ]
+105 verbose addNamed [ 'morgan', '1.4.1' ]
+106 verbose addNamed [ '1.4.1', '1.4.1' ]
+107 silly lockFile a46cba56-morgan-1-4-1 morgan@1.4.1
+108 verbose lock morgan@1.4.1 /home/josneville/.npm/a46cba56-morgan-1-4-1.lock
+109 silly lockFile a46cba56-morgan-1-4-1 morgan@1.4.1
+110 silly lockFile a46cba56-morgan-1-4-1 morgan@1.4.1
+111 silly lockFile d2a09fff-morgan-latest morgan@latest
+112 silly lockFile d2a09fff-morgan-latest morgan@latest
+113 http 200 https://registry.npmjs.org/mongoose/-/mongoose-3.8.18.tgz
+114 http 200 https://registry.npmjs.org/express
+115 silly registry.get cb [ 200,
+115 silly registry.get   { date: 'Sat, 01 Nov 2014 21:37:25 GMT',
+115 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+115 silly registry.get     etag: '"3QG0NHFSIF9S5XKZ5R0RD9DOS"',
+115 silly registry.get     'content-type': 'application/json',
+115 silly registry.get     'cache-control': 'max-age=60',
+115 silly registry.get     'content-length': '412335',
+115 silly registry.get     'accept-ranges': 'bytes',
+115 silly registry.get     via: '1.1 varnish',
+115 silly registry.get     age: '0',
+115 silly registry.get     'x-served-by': 'cache-lax1435-LAX',
+115 silly registry.get     'x-cache': 'HIT',
+115 silly registry.get     'x-cache-hits': '1',
+115 silly registry.get     'x-timer': 'S1414877845.768062,VS0,VE179',
+115 silly registry.get     vary: 'Accept',
+115 silly registry.get     'keep-alive': 'timeout=10, max=50',
+115 silly registry.get     connection: 'Keep-Alive' } ]
+116 silly lockFile 231ea59a-js-org-express-express-4-9-4-tgz https://registry.npmjs.org/express/-/express-4.9.4.tgz
+117 verbose lock https://registry.npmjs.org/express/-/express-4.9.4.tgz /home/josneville/.npm/231ea59a-js-org-express-express-4-9-4-tgz.lock
+118 verbose addRemoteTarball [ 'https://registry.npmjs.org/express/-/express-4.9.4.tgz',
+118 verbose addRemoteTarball   '008e18c92add61fcb534968e04c7e0102a66690b' ]
+119 info retry fetch attempt 1 at 16:37:28
+120 verbose fetch to= /tmp/npm-6925-hXyEOhKx/registry.npmjs.org/express/-/express-4.9.4.tgz
+121 http GET https://registry.npmjs.org/express/-/express-4.9.4.tgz
+122 silly lockFile 9f523dcf-org-mongoose-mongoose-3-8-18-tgz https://registry.npmjs.org/mongoose/-/mongoose-3.8.18.tgz
+123 silly lockFile 9f523dcf-org-mongoose-mongoose-3-8-18-tgz https://registry.npmjs.org/mongoose/-/mongoose-3.8.18.tgz
+124 silly lockFile bce763e9-mongoose-3-8-18 mongoose@3.8.18
+125 silly lockFile bce763e9-mongoose-3-8-18 mongoose@3.8.18
+126 silly lockFile 73e949f4-mongoose-latest mongoose@latest
+127 silly lockFile 73e949f4-mongoose-latest mongoose@latest
+128 http 200 https://registry.npmjs.org/express/-/express-4.9.4.tgz
+129 silly lockFile 231ea59a-js-org-express-express-4-9-4-tgz https://registry.npmjs.org/express/-/express-4.9.4.tgz
+130 silly lockFile 231ea59a-js-org-express-express-4-9-4-tgz https://registry.npmjs.org/express/-/express-4.9.4.tgz
+131 silly lockFile 80495242-express-4-9-4 express@4.9.4
+132 silly lockFile 80495242-express-4-9-4 express@4.9.4
+133 error 404 404 Not Found: bodyParser
+133 error 404
+133 error 404 'bodyParser' is not in the npm registry.
+133 error 404 You should bug the author to publish it
+133 error 404 It was specified as a dependency of 'Money2020Server'
+133 error 404
+133 error 404 Note that you can also install from a
+133 error 404 tarball, folder, or http url, or git url.
+134 error System Linux 3.13.0-39-generic
+135 error command "/usr/bin/node" "/usr/bin/npm" "install"
+136 error cwd /home/josneville/Dropbox/College/Projects/money-2020/server
+137 error node -v v0.10.33
+138 error npm -v 1.4.28
+139 error code E404
+140 verbose exit [ 1, true ]

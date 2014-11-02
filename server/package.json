@@ -12,6 +12,7 @@
   	"express": "4.9.4",
 	"morgan": "latest",
 	"body-parser": "latest",
-	"mongoose": "latest"
+	"braintree": "latest",
+	"request": "latest"
   }
 }
